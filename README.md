@@ -33,4 +33,4 @@ This redbus project done by selenium-webscraping and streamlit application
 * import datetime
 * from streamlit_option_menu import option_menu
 * from selenium import webdriver
-* ![image]"C:\Users\gokul\Pictures\Screenshots\Screenshot 2024-12-02 174626.png"
+
