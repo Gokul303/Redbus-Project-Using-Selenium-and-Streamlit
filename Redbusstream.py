@@ -210,7 +210,7 @@ if web == "📍States and Routes":
         T=slt.selectbox("list of routes",lists_T)
 
         def type_and_fare_T(bus_type, fare_range):
-            conn = pymysql.connect(host="localhost", user="root", password="kavi", database="RED_BUS_DETAILS")
+            conn = pymysql.connect(host="localhost", user="root", password="123456789", database="RED_BUS_DETAILS")
             my_cursor = conn.cursor()
             # Define fare range based on selection
             if fare_range == "50-1000":
