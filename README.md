@@ -4,7 +4,7 @@ This redbus project done by selenium-webscraping and streamlit application
 * TRANSPORTATION
 
 ## SKILL-TAKEAWAY
-* Python scripting,Selenium,Data Collection,Data Management using SQL,Streamlit
+* Python scripting,Selenium,Data Collection,Data Management using PYMYSQL,Streamlit
   
 ## Workspace
 * Python 3.13.0
@@ -26,10 +26,12 @@ This redbus project done by selenium-webscraping and streamlit application
    * With the help of Streamlit, you can create an interactive application similar to RedBus by designing a user-friendly interface that allows users to search for bus routes, view available buses, and get details like departure times and prices
 
 ## PACKAGES AND LIBRARIES
+* import streamlit as st
+* import pandas as pd
+* import pymysql
+* from sqlalchemy import create_engine
 * pandas as pd
-* pymysql.connector
 * import time
-* streamlit as slt
 * import datetime
 * from streamlit_option_menu import option_menu
 * from selenium import webdriver
